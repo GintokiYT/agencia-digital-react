@@ -15,7 +15,7 @@ const Jumbotron = () => {
                 </button>
             </div>
         </section>
-    );  
+    ) 
 }
  
 export default Jumbotron;

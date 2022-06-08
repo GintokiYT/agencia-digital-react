@@ -1,9 +1,9 @@
-import "../scss/footer.scss";
+import "../css/footer.css";
 
 const Footer = () => {
     return (  
         <footer>
-            <section id="footer">
+            <section id="contacto">
                 <div className="container py-3">
                     <div className="row mt-5">
                         <div className="col-sm-12 col-md-4 text-center text-white">

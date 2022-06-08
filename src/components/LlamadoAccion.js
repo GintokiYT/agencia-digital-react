@@ -1,4 +1,4 @@
-import "../scss/llamadoaccion.scss";
+import "../css/llamadoaccion.css";
 
 const LlamadoAccion = () => {
     return (  

@@ -1,8 +1,8 @@
 const Testimonios = () => {
     return (  
-        <section id="testimonios" className="my-5">
+        <section id="testimonios" className="py-5">
             <div className="container">
-                <h1 className="text-center mt-5">
+                <h1 className="text-center">
                     Testimonios
                 </h1>
                 <div className="row mt-5">

@@ -1,11 +1,11 @@
-//* Estilos personalizados
-
-body{
-    font-size: 1rem;
+header{
+    position: sticky;
+    z-index: 100;
+    top: 0;
 }
 
 .fondo-nav{
-    background-color: #13151d !important;
+    background-color: #13151D !important;
 }
 
 .img-logo{

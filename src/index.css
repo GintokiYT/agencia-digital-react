@@ -13,3 +13,17 @@ html{
 body{
   font-family: 'Roboto', sans-serif;
 }
+
+body::-webkit-scrollbar{
+  width: .5rem;
+  background-color: #13151D;
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color: #fff;
+  border-radius: 1rem;
+}
+
+[id] {
+  scroll-margin-top: 7.8ex;
+}

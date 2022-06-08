@@ -1,0 +1,9 @@
+#galeria .row {
+  margin: 0;
+  gap: 0;
+}
+
+#galeria .row div {
+  padding: 0;
+}
+/*# sourceMappingURL=galeria.css.map */

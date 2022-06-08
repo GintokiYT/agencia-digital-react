@@ -1,4 +1,4 @@
-import "../scss/galeria.scss";
+import "../css/galeria.css";
 
 import galeria1 from "../assets/pexels-photo-1029615-768x512.jpeg";
 import galeria2 from "../assets/pexels-photo-1152573-768x512.jpeg";

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,eAAe,CAAA;EACX,gBAAgB,EAAE,OAAO;CAC5B",
+    "sources": [
+        "../scss/llamadoaccion.scss"
+    ],
+    "names": [],
+    "file": "llamadoaccion.css"
+}

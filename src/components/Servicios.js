@@ -1,8 +1,8 @@
 const Servicios = () => {
     return (  
         <section id="servicios">
-            <div className="container">
-                <h1 className="text-center mt-5">
+            <div className="container pt-5">
+                <h1 className="text-center">
                     Nuestros Servicios
                 </h1>
                 <div className="row mt-5">

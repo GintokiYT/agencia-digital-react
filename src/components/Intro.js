@@ -1,10 +1,10 @@
-import "../scss/intro.scss";
+import "../css/intro.css";
 import blurred from "../assets/blurred-background-coffee-cup-contemporary-908284.jpg";
 
 const Intro = () => {
     return (    
         <section id="intro">
-            <div className="container">
+            <div className="container pt-5">
                 <div className="row">
                     <div className="col-sm-12 col-md-6">
                         <h2 className="mt-5">

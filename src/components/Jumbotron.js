@@ -1,4 +1,4 @@
-import "../scss/jumbotron.scss";
+import "../css/jumbotron.css";
 
 const Jumbotron = () => {
     return (  

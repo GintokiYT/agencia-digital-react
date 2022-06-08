@@ -1,0 +1,15 @@
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+}
+
+.fondo-nav {
+  background-color: #13151D !important;
+}
+
+.img-logo {
+  width: 100px;
+}
+/*# sourceMappingURL=header.css.map */

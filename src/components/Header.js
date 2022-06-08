@@ -1,5 +1,5 @@
 import digitalArt from "../assets/digitalArt.png";
-import "../scss/header.scss";
+import "../css/header.css";
 
 const Header = () => {
     return (  
@@ -51,5 +51,5 @@ const Header = () => {
         </header>
     )
 }
- 
+
 export default Header;

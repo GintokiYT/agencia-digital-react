@@ -8,8 +8,10 @@
 .jumbotron{
     max-width: 100%;
     background-color: #000000b3;
-    color: #fff;
+    color: #FFF;
     padding-top: 5rem;
+    border-radius: 0;
+    margin: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -26,6 +28,6 @@
 
 @media screen and (min-width: 1200px) {
     .jumbotron {
-        padding-top: 20rem;
+        padding-top: 18rem;
     }
 }

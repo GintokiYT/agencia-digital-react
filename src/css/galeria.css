@@ -6,4 +6,41 @@
 #galeria .row div {
   padding: 0;
 }
+
+.modal-container {
+  display: inline-block;
+  position: relative;
+}
+
+.modal-container.active {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 0;
+  left: 0;
+}
+
+.modal-container.active img {
+  z-index: 1;
+}
+
+.modal-container.active::after {
+  content: '';
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: #000000b7;
+  z-index: 0;
+}
 /*# sourceMappingURL=galeria.css.map */

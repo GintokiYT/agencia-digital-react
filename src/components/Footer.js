@@ -1,6 +1,11 @@
 import "../css/footer.css";
 
 const Footer = () => {
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+    }
+
     return (  
         <footer>
             <section id="contacto">
@@ -39,7 +44,10 @@ const Footer = () => {
                                     <label htmlFor="email">Email</label>
                                     <input className="form-control" type="email" placeholder="Ingresa tu email" />
                                 </div>
-                                <button className="btn btn-primary btn-block">
+                                <button 
+                                    className="btn btn-primary btn-block" 
+                                    id="formulario" 
+                                    onClick={handleSubmit}>
                                     Suscríbete
                                 </button>
                             </form>

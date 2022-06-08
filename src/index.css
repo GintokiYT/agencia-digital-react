@@ -14,7 +14,7 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
-body::-webkit-scrollbar{
+/* body::-webkit-scrollbar{
   width: .5rem;
   background-color: #13151D;
 }
@@ -22,8 +22,16 @@ body::-webkit-scrollbar{
 body::-webkit-scrollbar-thumb{
   background-color: #fff;
   border-radius: 1rem;
+} */
+
+body::-webkit-scrollbar{
+  width: 0rem;
 }
 
 [id] {
   scroll-margin-top: 7.8ex;
+}
+
+#galeria1::-webkit-scrollbar{
+  width: 0rem;
 }
